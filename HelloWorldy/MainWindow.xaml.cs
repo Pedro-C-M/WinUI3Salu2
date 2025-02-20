@@ -27,11 +27,8 @@ namespace HelloWorldy
         public MainWindow()
         {
             this.InitializeComponent();
+            this.Title = "XCVTransformer";
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
-        {
-            myButton.Content = "Clicked";
-        }
     }
 }

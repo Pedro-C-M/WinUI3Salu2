@@ -10,6 +10,6 @@
     Title="HelloWorldy">
 
     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click porfa</Button>
+        <TextBlock x:Name="myText" Text="Esto es mi TFG, gracias" Foreground="Red"/>
     </StackPanel>
 </Window>
